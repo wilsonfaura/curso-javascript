@@ -1,0 +1,31 @@
+body{
+    background-color: dodgerblue;
+}
+
+.header{
+    color: blueviolet;
+
+}
+
+h1.logo{
+    font-size: 3.5em;
+}
+
+.principal h2{
+    width: 800px;
+    margin-left: 60px;
+    border-bottom: 2px solid bisque;
+    font-size: 1.8em;
+    color: bisque;
+}
+
+.principal p{
+    color: aliceblue;
+}
+
+#mensaje{
+    width: 800px;
+    margin-left: 60px;
+    border-bottom: 2px solid bisque;
+    padding-top: 40px;
+}

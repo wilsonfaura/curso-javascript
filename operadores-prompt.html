@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/prompt.css">
+    <script>
+        var nombre=prompt("Introduce tu nombre por favor");
+        var apellido=prompt("Introduce tu apellido por favor");
+        var edad=prompt("Introduce tu edad por favor");
+        var restando=prompt("Cuantos años deseas quitarte?");
+        edad-=restando;
+    </script>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="header">
+            <h1 class="logo">Curso de JavaScript pildoras Informaticas</h1>
+        </div>
+        <div class="contenido">
+            <div class="principal">
+                <h2>Jugando con las variables</h2>
+                <div id="mensaje">
+                    <script>
+                        document.write("<p>" + "Hola " + nombre + " " + apellido + "<br/>" + "Te gustaria tener " + edad + " años" + "</p>");
+                    </script>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
